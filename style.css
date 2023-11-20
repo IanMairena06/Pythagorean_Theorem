@@ -1,0 +1,48 @@
+#container{
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap; 
+    width: 30rem;
+    height: 10rem;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom right, #3a874f, #32a897);  /* Gradient background */
+  }
+  
+  label{
+    margin: 1rem auto;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  
+  input{
+    margin: 1rem auto;
+    height: 1rem;
+    text-align: center; /* Centers the text horizontally */
+    background: #cdcdcd;
+  }
+  
+  button{
+    border-top: 3px solid black; 
+    background-image: linear-gradient(to bottom right, #3a874f, #32a897); /* Gradient background */
+    display: block;
+    width: 30rem;
+  }
+  
+  button:hover{
+    background-image: linear-gradient(to bottom right, #32a852, #3d877c); /* Gradient background but darker than the original background colour*/
+  }
+  
+  #output{
+    margin: 2rem auto;
+    text-align: center; /* Centers the text horizontally */
+    box-shadow: 2px 2px 2px;
+    background: #d9d9d9;
+  }
+  
+  p{
+    line-height: 1rem; /* Centers the text vertically */
+  }
+  
+  h2{
+    line-height: 0.5rem; /* Centers the text vertically */
+  }

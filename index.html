@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>This Title Shows in the Browser Tab</title>
+        <meta name="description" content="Our first page">
+        <meta name="keywords" content="html tutorial template">
+        <link rel="stylesheet" type="text/css" href="styles.css" /> 
+    </head>
+    
+    <body>
+        <div id = "container">
+  
+            <!-- Input box for first side -->
+            <label for="numInput">Side 1</label>
+            <input type="number" id="side1" name="numIn">
+            
+            <!-- Input box for second side -->
+            <label for="numInput">Side 2</label>
+            <input type="number" id="side2" name="numIn">
+          
+            <!-- Checkbox if they are solving for hypotenuse -->
+            <label for="checky">Solving for hypotenuse?</label>
+            <input type="checkbox" id="hyp" name="checky">
+          
+            <!-- Button that starts the calculations -->
+            <button type="button" id="run"><h2>Go</h2></button>
+            
+          </div><!-- End container -->
+          
+          <div id = "output"></div> <!-- Output box -->
+        <script src="javascript.js"></script>
+    </body>
+</html>
